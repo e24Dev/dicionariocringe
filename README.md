@@ -4,6 +4,8 @@ Um dicionário de termos e expressões consideradas "cringe" na cultura pop.
 
 Aula introdutória de **Spring Boot + Thymeleaf** para criação de páginas web renderizadas no servidor. Siga os passos na ordem para reproduzir o projeto.
 
+> Prefere ir direto à implementação? Use o [guia resumido de codificação](docs/GUIA-CODIFICACAO.md), com apenas os passos essenciais. Este README mantém as explicações detalhadas e os diagramas.
+
 ## Sumário
 
 1. [Visão geral da arquitetura](#1-visão-geral-da-arquitetura)
@@ -607,4 +609,3 @@ mindmap
 | Página sem estilo | Sem internet ou link do CDN errado | Verifique o `<link>` e a conexão |
 | `cannot find symbol: class List` | Falta `import java.util.List;` | Adicione o import |
 | `th:` não é reconhecido na IDE | Falta `xmlns:th` no `<html>` | Adicione o namespace |
-
